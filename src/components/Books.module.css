@@ -1,0 +1,35 @@
+.header {
+    max-width: 1080px;
+    margin: 0px auto;
+    font-size: 13px;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+.product {
+    padding-bottom: 5px;
+    background: silver;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 1em 1em;
+    text-align: center;
+}
+
+.photoProduct {
+    max-width: 200px;
+    height: auto;
+}
+
+.buttonDelete {
+    border-color: red;
+}
+
+.addBook {
+    border-color: green;
+}
+
+
+
+
+
+
+
